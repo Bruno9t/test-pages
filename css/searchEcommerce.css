@@ -8,10 +8,43 @@
     display: none;
 }
 
-#search{
 
-    background: blue;
+#search {
 
+    background: #5A47CC;
+    min-height: 50px;
+    height: auto;
+    padding: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+    color:white;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+#search img{
+    height: 28px;
+    width: 28px;
+}
+
+#modal2 button.close{
+    margin: 10px;
+}
+
+#search span{
+    position: absolute;
+    right: 8%;
+}
+
+#search input{
+    background: #5A47CC;
+    border:none
+}
+
+#search input::placeholder{
+    color: white;
+    font-size: 1.8rem;
 }
 
 #search.hide{
