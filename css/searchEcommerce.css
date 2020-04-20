@@ -4,6 +4,21 @@
 }
 
 
+#searchBlock.hide{
+    display: none;
+}
+
+#search{
+
+    background: blue;
+
+}
+
+#search.hide{
+    display: none;
+}
+
+
 .box-search{
     background-color: #5A47CC;
     border-radius: 10px;
