@@ -26,3 +26,7 @@ let x = window.matchMedia('(max-width:767px)')
 ifMatch(x)
 
 x.addEventListener('change',ifMatch)
+
+window.addEventListener('load',function(){
+    search.classList.add('loaded')
+})

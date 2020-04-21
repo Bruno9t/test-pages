@@ -3,7 +3,7 @@
     font-size: 1.4rem;
 }
 
-
+/*  */
 #searchBlock.hide{
     display: none;
 }
@@ -17,6 +17,7 @@
     padding: 13px;
     border-radius: 50px;
     cursor: pointer;
+    width: 50px;
     color:white;
     box-shadow: 5px 5px 5px gray;
 
@@ -27,7 +28,7 @@
     height: 28px;
     width: 28px;
 
-    right: 5%;
+    right: 10px;
 
 }
 
@@ -48,13 +49,32 @@
 }
 
 #search input::placeholder{
-    color: white;
+    color: #5A47CC;
     font-size: 1.8rem;
 }
 
 #search.hide{
     display: none;
 }
+
+#search.loaded{
+    position: relative;
+    animation: frame1 ease-in-out 1.4s;
+}
+
+@keyframes frame1{
+    0%{
+        width: 50px;
+    }
+    25%{
+        width: 100%;
+        font-style: white;
+    }
+    to{
+        width: 50px;
+    }
+}
+/*  */
 
 
 .box-search{
