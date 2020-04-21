@@ -10,36 +10,41 @@
 
 
 #search {
-
+    position: relative;
     background: #5A47CC;
     min-height: 50px;
     height: auto;
     padding: 13px;
-    border-radius: 20px;
+    border-radius: 50px;
     cursor: pointer;
-    margin: 20px;
     color:white;
     box-shadow: 5px 5px 5px gray;
 
 }
 
 #search img{
+    position: absolute;
     height: 28px;
     width: 28px;
+
+    right: 5%;
+
+}
+
+#search img, #search input{
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #modal2 button.close{
     margin: 10px;
 }
 
-#search span{
-    position: absolute;
-    right: 8%;
-}
-
 #search input{
+    position: absolute;
     background: #5A47CC;
-    border:none
+    border:none;
+    width:70%;
 }
 
 #search input::placeholder{
